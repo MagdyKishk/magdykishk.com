@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+/* Embed code */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+:root {
+    --font-big-shoulders: "Big Shoulders Display", sans-serif;
+    --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
+    --font-sans-serif: sans-serif;
+}
+
+.big-shoulders {
+    font-family: var(--font-big-shoulders);
+}
+
+.big-shoulders-inline {
+    font-family: var(--font-big-shoulders-inline);
+}

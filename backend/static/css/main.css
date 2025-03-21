@@ -1,0 +1,20 @@
+/* Normalize CSS */
+@import url(./normalize.css);
+
+/* Fonts */
+@import url(./fonts.css);
+
+/* Utils */
+@import url(./util.css);
+
+/* Components */
+@import url(./components/index.css);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-big-shoulders);
+    background-color: #1E2125;
+}
